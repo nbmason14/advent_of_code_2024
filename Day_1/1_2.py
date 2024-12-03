@@ -1,6 +1,6 @@
 import pandas as pd
 
-file = pd.read_csv("C:/Users/masonnea/Github/advent_of_code_2024/Day_1/1_1_input.csv",delimiter=",",header=None,index_col=False,names=["0","1"])
+file = pd.read_csv("advent_of_code_2024/Day_1/1_1_input.csv",delimiter=",",header=None,index_col=False,names=["0","1"])
 
 col1 = file.loc[:,'0']
 col2 = file.loc[:,'1']
