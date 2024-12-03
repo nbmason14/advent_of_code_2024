@@ -4,7 +4,7 @@ import csv
 
 reports = {'Safe':0,'Unsafe':0}
 
-with open("C:/Users/masonnea/Github/advent_of_code_2024/Day_2/input_Day2.csv","r") as file:
+with open("advent_of_code_2024/Day_2/input_Day2.csv","r") as file:
     reader = csv.reader(file, delimiter=" ")
     for i,line in enumerate(reader):
         Unsafe = 0
